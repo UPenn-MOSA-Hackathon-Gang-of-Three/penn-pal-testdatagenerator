@@ -19,12 +19,12 @@ This section walks a prospective user through the process of installing and runn
 
 ### Prerequisites
 
+Please install Python version 3.6 or above.
+
 Python Faker can be installed in the terminal using pip: 
 
-pip install Faker
-
 ```
-Provide code samples in this fenced code block.
+pip install Faker
 ```
 
 ### Installation
@@ -65,9 +65,7 @@ Etc.
 
 Which frameworks, libraries, or other tools did you use to create your project?
 
-* [Tool 1](https://maven.apache.org/) - Description (e.g. "Web framework used")
-* [Tool 2](https://maven.apache.org/) - Description
-* [Tool 3](https://maven.apache.org/) - Description
+* [Python Faker 14.2.0](https://pypi.org/project/Faker/) - Python package used to generate fake data in order to anonymize data. 
 
 ### Acknowledgments
 
