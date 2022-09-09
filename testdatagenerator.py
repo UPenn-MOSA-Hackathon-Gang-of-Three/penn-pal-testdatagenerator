@@ -18,15 +18,21 @@ fake_data = Faker()
 # Faker.seed(0)
 
 # to adjust available options adjust
-mentorMentee = (["Mentor", "Mentee"])
+mentorMentee = ("Mentor", "Mentee")
 gender = ("Male", "Female")
-certification = (["CPA", "CIA", "CISA", "PMP", "CPA, CIA", "CPA, CISA", "CIA, CISA", "CRMA", "CFE", "CFE, CIA"])
+certification = ("CPA", "CIA", "CISA", "PMP", "CPA, CIA", "CPA, CISA", "CIA, CISA", "CRMA", "CFE", "CFE, CIA")
 yesNo = ("Yes", "No")
 genderPreference = ("Male", "Female", "No preference")
 skills = ("Leadership", "Certification", "Networking", "Interviewing", "Communication", "Strategic Thinking")
-timezones = ("GMT, GMT+1:00, GMT+2:00, GMT+3:00, GMT+4:00, GMT+5:00, GMT+5:30, GMT+6:00, GMT+7:00, GMT+8:00, GMT+9:00,"
-             "GMT+9:30, GMT+10:00, GMT+11:00, GMT+12:00, GMT-11:00, GMT-10:00, GMT-9:00, GMT-8:00, GMT-7:00, GMT-6:00,"
-             "GMT-5:00, GMT-4:00, GMT-3:30, GMT-3:00, GMT-1:00")
+timezones = ("GMT+0:00", "GMT+1:00", "GMT+2:00", "GMT+3:00", "GMT+03:07",
+             "GMT+03:30", "GMT+4:00", "GMT+4:30", "GMT+5:00", "GMT+5:30",
+             "GMT+5:45", "GMT+6:00", "GMT+6:30", "GMT+7:00", "GMT+8:00",
+             "GMT+8:45", "GMT+9:00", "GMT+9:30", "GMT+10:00", "GMT+10:30",
+             "GMT+11:00", "GMT+11:30", "GMT+12:00", "GMT+12:45", "GMT+13:00",
+             "GMT+14:00", "GMT-12:00", "GMT-11:00", "GMT-10:00", "GMT-9:30",
+             "GMT-9:00", "GMT-8:00", "GMT-7:00", "GMT-6:00", "GMT-5:00",
+             "GMT-4:30", "GMT-4:00", "GMT-3:30", "GMT-3:00", "GMT-2:00",
+             "GMT-1:00")
 
 # create a csv file with column headings
 with open('test_data_set.csv', 'w', newline='') as csvfile:
