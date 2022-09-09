@@ -1,5 +1,12 @@
 '''
 Create a program to generate test datasets of mentor and mentees to use for testing the Penn-Pal's matching algorithm.
+
+How to use:
+1) Download the Faker package
+2) In Line 32, update name of the output csv file.
+3) In Line 52, change the value to the number of entries that you would like in your test data set.
+4) Run the program.
+
 '''
 import csv
 import random
